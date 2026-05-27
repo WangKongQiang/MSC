@@ -216,7 +216,7 @@ if __name__ == '__main__':
 
 
 # Triggering environment
-    # conda activate MCL
+    # conda activate MSC
 
 # Switch the current path
     # cd /mnt/c/Users/wangkongqiang/PycharmProjects/pythonProject/datasets/
