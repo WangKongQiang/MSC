@@ -5,7 +5,7 @@ Function description of files and folders:
 
 datasets   folder:   
 
-                    textdatasets--------------------agnews.csv  biomedical.csv  googlenews_S.csv  googlenews_T.csv  googlenews_TS.csv  searchsnippets.csv  stackoverflow.csv   tweet.csv   It ontains eight representative short text public datasets.
+                    textdatasets--------------------agnews.csv  biomedical.csv  googlenews_S.csv  googlenews_T.csv  googlenews_TS.csv  searchsnippets.csv  stackoverflow.csv  tweet.csv   It ontains eight representative short text public datasets.
 
                     Neural-Machine-Translation-German------------------Corresponding data augmentation method: paraphrase via back-translation (PARA-German).
                     
