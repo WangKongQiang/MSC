@@ -55,10 +55,17 @@ The script for running contrastive learning can be found in main.py, and the hyp
 
 ### Run the clustering experiment script: (For example, take the experiment with RTR data augmentation as a positive example generation).
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname searchsnippets_RTR --num_classes 8
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname stackoverflow_RTR --num_classes 20
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname biomedical_RTR--num_classes 20
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname agnews_RTR --num_classes 4
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname tweet_RTR --num_classes 110
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_TS_RTR --num_classes 152
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_T_RTR --num_classes 152
+ 
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_S_RTR --num_classes 152
