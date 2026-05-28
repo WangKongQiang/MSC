@@ -46,7 +46,7 @@ sentence-transformers/distilbert-base-nli-stsb-mean-tokens Hugging Face: https:/
 The torch installation environment and the execution parameters for data augmentation can be found in the comments in nlpaug_explore.py
 
 ### setup torch
-### pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
+ pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 torchaudio==0.10.0+cu113 -f https://download.pytorch.org/whl/cu113/torch_stable.html
 
 ### Dataset Content (It contains datasets of the corresponding data augmentation type).
 Perform corresponding data augmentation on the eight representative short text public datasets of folder datasets/textdatasets. Generate corresponding enhanced samples text1 and text2 based on the original text.
@@ -54,11 +54,11 @@ Perform corresponding data augmentation on the eight representative short text p
 The script for running contrastive learning can be found in main.py, and the hyperparameters for running contrastive learning can be found in the script comments.
 
 ### Run the clustering experiment script: (For example, take the experiment with RTR data augmentation as a positive example generation).
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname searchsnippets_RTR --num_classes 8
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname stackoverflow_RTR --num_classes 20
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname biomedical_RTR--num_classes 20
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname agnews_RTR --num_classes 4
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname tweet_RTR --num_classes 110
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_TS_RTR --num_classes 152
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_T_RTR --num_classes 152
-### python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_S_RTR --num_classes 152
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname searchsnippets_RTR --num_classes 8
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname stackoverflow_RTR --num_classes 20
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname biomedical_RTR--num_classes 20
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname agnews_RTR --num_classes 4
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname tweet_RTR --num_classes 110
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_TS_RTR --num_classes 152
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_T_RTR --num_classes 152
+ python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_S_RTR --num_classes 152
