@@ -28,6 +28,7 @@ requirements.txt------------------This is the main environment configuration for
 main.py----------------------This is the entry code for implementing MSC: Matrix Supporting Clustering Based on Sentence-Transformers with Contrastive Learning method on eight representative short text datasets.
 
 #⚡Quick Start⚡#
+
 The pre-trained models to be pulled, models--FacebookAI--roberta-base and models--google-bert--bert-base-uncased, are used for contextual_augment function in the nlpaug_explore.py script.
 
 Hugging Face: https://huggingface.co/FacebookAI/roberta-base
