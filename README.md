@@ -53,7 +53,7 @@ Perform corresponding data augmentation on the eight representative short text p
 
 The script for running contrastive learning can be found in main.py, and the hyperparameters for running contrastive learning can be found in the script comments.
 
-### Run the clustering experiment script: (For example, take the experiment with RTR data augmentation as a positive example generation).
+### Run the clustering experiment script: (For example, take the experiment with RTR data augmentation as a positive example generation method).
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname searchsnippets_RTR --num_classes 8
  
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname stackoverflow_RTR --num_classes 20
