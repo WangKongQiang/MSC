@@ -51,7 +51,7 @@ The torch installation environment and the execution parameters for data augment
 ### Dataset Content (It contains datasets of the corresponding data augmentation type).
 Perform corresponding data augmentation on the eight representative short text public datasets of folder datasets/textdatasets. Generate corresponding enhanced samples text1 and text2 based on the original text.
 
-The script for running contrastive learning can be found in main.py, and the hyperparameters for running contrastive learning can be found in the script comments.
+The script for running MSC contrastive learning can be found in main.py, and the hyperparameters for running MSC contrastive learning can be found in the script comments.
 
 ### Run the clustering experiment script: (For example, take the experiment with RTR data augmentation as a positive example generation method).
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname searchsnippets_RTR --num_classes 8
