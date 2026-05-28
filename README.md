@@ -38,7 +38,9 @@ Hugging Face: https://huggingface.co/google-bert/bert-base-uncased
 The pre-trained models to be pulled, models--sentence-transformers--all-mpnet-base-v2, models--sentence-transformers--all-distilroberta-v1, models--sentence-transformers--distilbert-base-nli-stsb-mean-tokens serves as the backbone of the framework.
 
 sentence-transformers/all-mpnet-base-v2 Hugging Face: https://huggingface.co/sentence-transformers/all-mpnet-base-v2
+
 sentence-transformers/all-distilroberta-v1 Hugging Face: https://huggingface.co/sentence-transformers/all-distilroberta-v1
+
 sentence-transformers/distilbert-base-nli-stsb-mean-tokens Hugging Face: https://huggingface.co/sentence-transformers/distilbert-base-nli-stsb-mean-tokens
 
 The torch installation environment and the execution parameters for data augmentation can be found in the comments in nlpaug_explore.py
