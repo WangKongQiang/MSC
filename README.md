@@ -1,5 +1,5 @@
 # MSC
-Project code for MSC: Matrix Supporting Clustering Based on Sentence-Transformers with Contrastive Learning.
+Project code for paper ---> MSC: Matrix Supporting Clustering Based on Sentence-Transformers with Contrastive Learning.
 
 Function description of files and folders:
 
