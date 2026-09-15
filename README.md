@@ -69,3 +69,5 @@ The script for running MSC contrastive learning can be found in main.py, and the
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_T_RTR --num_classes 152
  
  python main.py  --objective MSC --augtype explicit --eta 10 --batch_size 500 --max_iter 3000 --bert mpnet --dataname googlenews_S_RTR --num_classes 152
+
+ Project experiments on eight authoritative short text datasets.
