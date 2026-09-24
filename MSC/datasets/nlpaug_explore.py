@@ -182,7 +182,7 @@ if __name__ == '__main__':
     # for dataset in datasets:
     #     augment_files(datadir=datadir, targetdir=targetdir, dataset=dataset, aug_p=0.2, augtype="charswap")
 
-#Perform data augmentation
+# Perform data augmentation
 
     # datadir = "textdatasets"
     # targetdir = "textdatasets/augmentation"
